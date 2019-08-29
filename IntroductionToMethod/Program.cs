@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Script.Serialization;
 
 namespace IntroductionToMethod
 {
@@ -10,27 +11,44 @@ namespace IntroductionToMethod
     {
         static void Main(string[] args)
         {
-            IntroToMethods _ITM = new IntroToMethods();
-            string reverseName;
-            string fullName;
-            fullName = _ITM.ConcatFNameAndLName("First Name", "Last Name", out reverseName);
-            Console.WriteLine(reverseName);
+            Homework homework = new Homework();
+            int sum = 0;
+            int product = homework.Lab1(5, 1, 6, out sum);
+            Console.WriteLine("Sum: " + sum);
+            Console.WriteLine("Product: " + product);
 
-            Console.WriteLine(_ITM.ConcatFNameAndLNameWithDefault("asd"));
+            Cat cat01 = new Cat("Tibby", 2);
+            Homework.Age(cat01);
+            Homework.Age(cat01);
+
+            var json = new JavaScriptSerializer().Serialize(cat01);
+            Console.WriteLine(json);
         }
     }
 
-    class IntroToMethods
+    class Homework
     {
-        public string ConcatFNameAndLName(string fname, string lname, out string reverseName)
+        public int Lab1(int a, int b, int c, out int sum)
         {
-            reverseName = lname + " " + fname;
-            return fname + " " + lname;
+            sum = a + b + c;
+            return a * b * c;
         }
 
-        public string ConcatFNameAndLNameWithDefault(string fname = "Legally" , string lname = "Blonde")
+        public static void Age(Cat cat)
         {
-            return fname + " " + lname;
+            cat.AddAge(5);
+        }
+    }
+
+    class Cat
+    {
+        public string name;
+        public int age;
+
+        public Cat(string name, int age) { this.name = name; this.age = age; }
+        public void AddAge(int value)
+        {
+            age += value;
         }
     }
 }
