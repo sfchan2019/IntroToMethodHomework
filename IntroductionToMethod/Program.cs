@@ -36,19 +36,17 @@ namespace IntroductionToMethod
 
         public static void Age(Cat cat)
         {
-            cat.AddAge(5);
+            cat.Age += 5;
         }
     }
 
     class Cat
     {
-        public string name;
-        public int age;
+        private string name;
+        public string Name { get => name; set => name = value; }
+        private int age;
+        public int Age { get => age; set => age = value; }
 
         public Cat(string name, int age) { this.name = name; this.age = age; }
-        public void AddAge(int value)
-        {
-            age += value;
-        }
     }
 }
