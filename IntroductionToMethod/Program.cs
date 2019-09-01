@@ -43,9 +43,17 @@ namespace IntroductionToMethod
     class Cat
     {
         private string name;
-        public string Name { get => name; set => name = value; }
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
         private int age;
-        public int Age { get => age; set => age = value; }
+        public int Age
+        {
+            get { return age; }
+            set { age = value; }
+        }
 
         public Cat(string name, int age) { this.name = name; this.age = age; }
     }

@@ -5,3 +5,9 @@ C:\Users\Seng Fai Chan\Documents\Visual Studio Project\Engineering40\Week3\Day4\
 C:\Users\Seng Fai Chan\Documents\Visual Studio Project\Engineering40\Week3\Day4\IntroductionToMethod\IntroductionToMethod\obj\Debug\IntroductionToMethod.csproj.CoreCompileInputs.cache
 C:\Users\Seng Fai Chan\Documents\Visual Studio Project\Engineering40\Week3\Day4\IntroductionToMethod\IntroductionToMethod\obj\Debug\IntroductionToMethod.exe
 C:\Users\Seng Fai Chan\Documents\Visual Studio Project\Engineering40\Week3\Day4\IntroductionToMethod\IntroductionToMethod\obj\Debug\IntroductionToMethod.pdb
+C:\Users\Sing\Documents\Visual Studio 2015\Projects\Sparta Global\Week3\Day4\IntroToMethodHomework\IntroductionToMethod\bin\Debug\IntroductionToMethod.exe.config
+C:\Users\Sing\Documents\Visual Studio 2015\Projects\Sparta Global\Week3\Day4\IntroToMethodHomework\IntroductionToMethod\obj\Debug\IntroductionToMethod.exe
+C:\Users\Sing\Documents\Visual Studio 2015\Projects\Sparta Global\Week3\Day4\IntroToMethodHomework\IntroductionToMethod\obj\Debug\IntroductionToMethod.pdb
+C:\Users\Sing\Documents\Visual Studio 2015\Projects\Sparta Global\Week3\Day4\IntroToMethodHomework\IntroductionToMethod\obj\Debug\IntroductionToMethod.csprojResolveAssemblyReference.cache
+C:\Users\Sing\Documents\Visual Studio 2015\Projects\Sparta Global\Week3\Day4\IntroToMethodHomework\IntroductionToMethod\bin\Debug\IntroductionToMethod.exe
+C:\Users\Sing\Documents\Visual Studio 2015\Projects\Sparta Global\Week3\Day4\IntroToMethodHomework\IntroductionToMethod\bin\Debug\IntroductionToMethod.pdb
